@@ -1,0 +1,23 @@
+global:
+  timezone: America/Los_Angeles
+  date_format: "YYYY-MM-DD"
+  session_time_sync:
+    purpose: "Maintain agent time alignment with client local clock."
+    offset_storage:
+      description: "Difference (seconds) between system time and provided local time."
+      persist_across_session: true
+      calculation_rule: "session_clock.offset = local_time - system_time"
+      usage_rule: "current_time = system_time + session_clock.offset"
+    prompt_on_session_start: true
+    expected_format:
+      date: "YYYYMMDD"
+      time: "hhmm"
+      timezone: "America/Los_Angeles"
+    behavior:
+      - "On initialization, if local time is provided, compute offset and store it."
+      - "All date/time requests use system_time + offset for derived local time."
+      - "If a new time is provided later, recompute offset and update stored value."
+      - "If a new sandbox or session is created or started, ask to have local time updated."
+  defaults:
+    week_start_weekday: "Monday"
+    prep_day_for_upcoming_week: "Sunday"
