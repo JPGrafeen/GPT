@@ -1,0 +1,12 @@
+meal_plan_defaults:
+  target_person_default: "JP"
+  target_person_persistence: false
+  week_start_weekday: "Monday"
+  prep_day_for_upcoming_week: "Sunday"
+  plan_layout: "prep_rotation"
+  render_format: "pdf"
+  prep_pdf_sections:
+    - "Sunday Prep List"
+    - "Weekly Rotation (Mon–Sun)"
+    - "Shopping List"
+    - "Notes"
