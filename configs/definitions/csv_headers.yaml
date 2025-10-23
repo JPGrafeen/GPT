@@ -1,0 +1,3 @@
+csv_headers:
+  nutrition: ["date","calories_pwt","protein_pwt","carbs_pwt","fat_pwt","fiber_pwt","water_pwt","caffeine_pwt","sodium_pwt","potassium_pwt","calcium_pwt","magnesium_pwt","iron_pwt","vitA_pwt","vitC_pwt","vitD_pwt","vitE_pwt","vitK_pwt","b1_pwt","b2_pwt","b3_pwt","b5_pwt","b6_pwt","b9_pwt","b12_pwt","notes"]
+  workout:   ["date","day_type","session","workout_type","duration_min","rpe","calories_burned","steps","distance_miles","pushups_reps","mobility_min","notes"]
