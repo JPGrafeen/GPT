@@ -1,4 +1,5 @@
-# projects/emilys-improvement
-Pipeline for Emily’s Improvement project.
-Focuses on incremental task optimization, structured introspection, and agent feedback loops.
-Contains configuration overlays and dataset modifiers for iterative self-improvement cycles.
+# projects/emily-improvement
+Pipeline for emily Improvement project.
+Dedicated to the physical and fitness improvement domain, focusing on workout planning, tracking, and analysis.
+Integrates structured activity schemas, adaptive planning logic, and performance telemetry to optimize training efficiency.
+
