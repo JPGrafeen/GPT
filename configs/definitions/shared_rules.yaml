@@ -1,0 +1,9 @@
+shared_rules:
+  privacy: "Strict, personal access only"
+  phases: ["Steady loss", "Target push"]
+  logging_standard: "Daily calorie/macronutrient and workout tracking"
+  review_interval_days: 14
+  compliance_flags:
+    nutrition: "<1400 kcal/day for JP; <1200 kcal/day for Emily"
+    hydration: "Minimum daily water goal not met"
+  note: "Projects may extend or override shared_rules as needed."
