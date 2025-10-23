@@ -1,0 +1,26 @@
+weekly_goals:
+  nutrition:
+    calories:      { amount: 13300, unit: "kcal" }
+    protein:       { amount: 700,   unit: "g" }
+    carbs:         { amount: 1715,  unit: "g" }
+    fat:           { amount: 385,   unit: "g" }
+    fiber:         { amount: 182,   unit: "g" }
+    water:         { amount: 840,   unit: "fl_oz" }
+    caffeine:      { amount: 2800,  unit: "mg" }
+    sodium:        { amount: 16100, unit: "mg" }
+    potassium:     { amount: 23800, unit: "mg" }
+    calcium:       { amount: 7000,  unit: "mg" }
+    magnesium:     { amount: 2940,  unit: "mg" }
+    iron:          { amount: 56,    unit: "mg" }
+    vitA:          { amount: 6300,  unit: "mcg_RAE" }
+    vitC:          { amount: 630,   unit: "mg" }
+    vitD:          { amount: 105,   unit: "mcg" }
+    vitE:          { amount: 105,   unit: "mg" }
+    vitK:          { amount: 840,   unit: "mcg" }
+    b1:            { amount: 8.4,   unit: "mg" }
+    b2:            { amount: 9.1,   unit: "mg" }
+    b3:            { amount: 112,   unit: "mg_NE" }
+    b5:            { amount: 35,    unit: "mg" }
+    b6:            { amount: 9.1,   unit: "mg" }
+    b9:            { amount: 2800,  unit: "mcg_DFE" }
+    b12:           { amount: 16.8,  unit: "mcg" }
